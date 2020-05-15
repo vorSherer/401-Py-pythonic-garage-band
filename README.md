@@ -22,3 +22,5 @@ Setup WSL (Windows users) and Microsoft's Virtual Studio Code ("VS Code"), Node.
 ## Credits and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
 Thanks to Vijayeta Rangarajan for help setting up!
+Thanks to Skyler Berger for extensive help getting this puppy off the ground!
+
