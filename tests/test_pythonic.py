@@ -79,5 +79,25 @@ def test_Drummer_exists():
     assert Drummer
 
 
+def test_Drummer():
+    expected_name = "Boog"
+    expected_model = "Gretch"
+    boog = Drummer("Boog", "Gretch")
+    assert boog.name == expected_name
+    assert boog.model == expected_model
+    assert repr(boog)
+
+
 def test_Keyboardist_exists():
     assert Keyboardist
+
+
+def test_Keyboardist():
+    expected_name = "Dieter"
+    expected_model = "Yamaha"
+    dieter = Drummer("Dieter", "Gretch")
+    assert dieter.name == expected_name
+    assert dieter.model == expected_model
+    assert repr(dieter)
+
+
